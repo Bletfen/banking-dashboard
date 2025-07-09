@@ -377,6 +377,7 @@ h1 {
 
 .sidebar {
   display: none;
+  background-color: #fff;
 }
 
 .settings-wrapper {
