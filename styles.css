@@ -854,6 +854,7 @@ h1 {
     flex-direction: column;
     background-color: #fff;
     border-left: 0.1rem solid #e6eff5;
+    padding: 10rem 0rem;
   }
 
   .quick-text {
