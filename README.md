@@ -1,15 +1,14 @@
 # 💰 Banking Dashboard
 
-This is a **responsive banking dashboard UI** built with **HTML** and **CSS**, designed to simulate the layout of a modern banking application. It includes an overview of expenses, recent transactions, and other financial activity with a clean and minimal interface.
+This is a **mobile-first responsive banking dashboard UI** built with **HTML** and **CSS**, simulating a real-world banking application interface. It includes an overview of financial stats, expense charts, and a dynamic transaction list — all styled cleanly and responsively.
 
 ## 🚀 Features
 
-- ✅ Clean and modern dashboard layout
-- 📊 Expense visualization using SVG graphs
-- 💳 Transaction list with semantic structure
-- 🎨 Fully styled with CSS (no framework)
-- ⚙️ Reusable components for transactions
-- 🔁 Ready for integration with JavaScript or frameworks like React
+- ✅ Mobile-first, fully responsive layout
+- 📊 Visual expense tracking with SVG graphs
+- 💳 Transaction list with flexible layout
+- 🧩 Reusable UI components
+- 🎨 Clean, minimalist styling using only HTML & CSS
 
 ---
 
@@ -17,39 +16,38 @@ This is a **responsive banking dashboard UI** built with **HTML** and **CSS**, d
 
 📁 images/ → Icons and illustrations
 📄 index.html → Main dashboard page
-📄 transaction.html → Separate transaction details page
-📄 styles.css → All styles for the project
+📄 transaction.html → Transaction list page
+📄 styles.css → Project styles (mobile-first)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- SVG Icons
-- Google Fonts (Poppins, Inter, etc.)
+- HTML5 (semantic structure)
+- CSS3 (flexbox, media queries, custom SVG)
+- Google Fonts (e.g., Poppins, Inter)
 
 ---
 
-## 📱 Responsive Design
+## 📱 Mobile-First & Responsive
 
-The layout is designed with a mobile-first approach, and media queries can be added for full desktop responsiveness.
+The entire layout is built using a **mobile-first approach**, ensuring excellent display on all screen sizes. Responsive breakpoints are defined via media queries to progressively enhance the layout on tablets and desktops.
 
 ---
 
-## 📌 Author
+## ✍️ Author
 
 **Giorgi Grigolishvili**  
 GitHub: [Bletfen](https://github.com/Bletfen)
 
 ---
 
-## ✅ To-Do / Future Improvements
+## 📌 Future Enhancements
 
-- [ ] Add JavaScript functionality (filter, search, interactivity)
-- [ ] Improve mobile responsiveness
-- [ ] Integrate with backend API or dummy data
-- [ ] Add dark mode switcher
+- [ ] Add interactivity with JavaScript (filter, sort, animations)
+- [ ] Integrate with API or localStorage for transaction data
+- [ ] Add dark mode support
+- [ ] Optimize asset loading and performance
 
 ---
 
