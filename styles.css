@@ -1000,7 +1000,8 @@ TRANSACTIONS-PAGE
   justify-content: space-between;
   border-radius: 1.5rem;
   background: #fff;
-  padding: 1.7rem 2rem 2rem;
+  padding: 2rem;
+  height: 22.5rem;
 }
 
 .rectangle-display {
@@ -1034,6 +1035,10 @@ TRANSACTIONS-PAGE
 
 .jan {
   height: 8.8rem;
+}
+
+.big-display {
+  display: none;
 }
 
 .month-display {
@@ -1177,7 +1182,16 @@ TRANSACTIONS-PAGE
   }
 
   .expanses-display {
-    padding: 1.3rem 2.5rem;
+    padding: 2rem;
+    height: 17.1rem;
+  }
+
+  .sep {
+    height: 12rem;
+  }
+
+  .dec {
+    height: 10rem;
   }
 
   .cards-expanses {
@@ -1253,7 +1267,8 @@ TRANSACTIONS-PAGE
 
 @media only screen and (min-width: 90rem) {
   .expanses-display {
-    padding: 3.5rem 2.5rem;
+    padding: 2rem;
+    height: 22.5rem;
   }
 
   .expanses-display {
@@ -1274,5 +1289,36 @@ TRANSACTIONS-PAGE
 
   .expanses {
     gap: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .big-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    color: #718ebf;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .feb {
+    height: 12rem;
+  }
+  .mar {
+    height: 9rem;
+  }
+  .apr {
+    height: 3rem;
+  }
+  .may {
+    height: 7rem;
+  }
+  .jun {
+    height: 12rem;
+  }
+  .jul {
+    height: 10rem;
   }
 }
